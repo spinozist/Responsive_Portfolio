@@ -232,9 +232,6 @@ footer {
 }
 
 @media screen and (max-width: 640px) {
-    .box {
-        width: 580px;
-    }
 
     .namebanner {
         width: 100%;
@@ -260,6 +257,7 @@ footer {
     .header-box {
         height: 180px; 
         margin: -15px;
+        width: 100%;
     }
 
     header {
@@ -267,18 +265,18 @@ footer {
     }
 
     .column-wrap {
-        width: 540px;
+        width: 100%;
     }
 
     .image-wrap {
         float: center;
         text-align: center;
         margin: 20px 0px 30px 0px;
-        width: 500px;
+        width: 100%;
     }
 
     img {
-        width: 500px;
+        width: 100%;
     }
 
     #portfolio-box {
