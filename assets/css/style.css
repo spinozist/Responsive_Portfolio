@@ -1,0 +1,301 @@
+html {
+    height: 100%;
+    margin: 0;
+}
+
+header {
+    background-color: #ffffff;
+    border-bottom: solid;
+    border-bottom: #cccccc;
+}
+
+body { 
+    background-image: url(../images/backgroundimage.png);
+    background-repeat: repeat;
+    margin: 0;
+    height: 100%;
+}
+
+.name {
+    color: #ffffff;
+}
+
+.header-box {
+    float: center;
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 90px;
+}
+
+.namebanner {
+    float: left;
+    background-color: #4aaaa5;
+    height: 90px;
+    padding: 0px 30px 0px 30px;
+}
+
+.topnav {
+    float: right;
+    height: 100px;
+    padding-top: 35px;
+}
+
+.box {
+    float: center;
+    background-color: #ffffff;
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 35px;
+    padding-bottom: 20px;
+    border-color: #dddddd;
+}
+
+.inside-container {
+    padding: 30px;
+}
+
+.title {
+    color: #4aaaa5;
+    border-bottom: solid;
+    border-bottom-color: darkgray;
+    padding: 15px 0px 20px 0px;
+    margin-top: -10px;
+}
+
+a {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    text-decoration: none;
+    color: darkgrey;
+}
+
+.hyperlink {
+    color: #4aaaa5;
+    padding: 0px;
+    font-size: 18px;
+}
+
+#middle-butt {
+    border: solid;
+    border-color: #dddddd;
+    padding: 0px 10px 0px 10px;
+    margin: 0px 10px 0px 10px;
+    border-width: 0px 1px 0px 1px;
+}
+
+img {
+    float: left;
+    position: relative;
+}
+
+#profile-image {
+    margin: 0px 20px 20px 0px;
+}
+
+textarea {
+    max-width: 100%;
+    min-width: 100%;
+    border-color: lightgrey;
+    margin-top: 5px;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    line-height: 30px;
+    color: darkgrey;
+    font-weight: lighter;
+}
+
+input, textarea {
+    width: 100%;
+}
+
+.contact-text {
+    line-height: 30px;
+}
+
+.submitbutton {
+    background-color: #4aaaa5;
+    border-color: #4aaaa5;
+    text-align: center;
+    color: white;
+    width: 120px;
+    height: 30px;
+    padding: 10px 10px 10px 10x;
+    font-size: 14px;
+}
+
+.input-box {
+    padding: 5px 5px 5px 5px;
+    color: darkgrey;
+}
+
+#portfolio-box {
+    height: 940px;
+    margin-bottom: 20px;
+}
+
+.image-wrap {
+    float: left;
+    position: relative;
+    text-align: center;
+    margin: 20px 0px 30px 0px;
+}
+
+.image-label {
+    position: absolute;
+    background-color: #4aaaa5;
+    color: white;
+    top: 130px;
+    width: 100%;
+}
+
+h3 {
+    font-weight: lighter;
+}
+
+footer {
+    background-color: #666666;
+    height: 50px;
+    margin-top: 20px;
+    border-top: solid;
+    border-top-color: #4aaaa5;
+    border-top-width: 5px;
+    text-align: center;
+    vertical-align: bottom;
+    color: white;
+    font-size: 12px;
+    padding-top: 35px;
+}
+
+.wrapper {
+    min-height: 100%;
+    margin-bottom: -50px;   
+}
+
+.push {
+    height: 50px;
+}
+
+.column-wrap {
+    width: 250px;
+    margin-right: 40px;
+    float: left;
+}
+
+@media screen and (max-width:980px) {
+    .header-box {
+        float: center;
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+        height: 90px;
+    }
+
+    .box {
+        width: 650px;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .box {
+        width: 690px;
+    }
+
+    .column-wrap {
+        margin-left: 25px;
+    }
+
+    .header-box {
+        float: center;
+        width: 690px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .inside-container {
+        padding: 20px;
+    }
+
+    .input-box {
+        width: 98%;
+        color: darkgrey;
+    }
+
+    textarea {
+        max-width: 99%;
+        min-width: 99%;
+        }
+}
+
+@media screen and (max-width: 640px) {
+    .box {
+        width: 580px;
+    }
+
+    .namebanner {
+        width: 100%;
+        text-align: center;
+        padding: 0px 0px 30px 0px;
+    }
+
+    .name {
+        font-size: 50px;
+    }
+
+    .topnav {
+        float: center;
+        width: 100%;
+        text-align: center;
+        padding-top: 20px;
+    }
+
+    .topnav a {
+        font-size: 20px;
+    }
+
+    .header-box {
+        height: 180px; 
+        margin: -15px;
+    }
+
+    header {
+        position: static;
+    }
+
+    .column-wrap {
+        width: 540px;
+    }
+
+    .image-wrap {
+        float: center;
+        text-align: center;
+        margin: 20px 0px 30px 0px;
+        width: 500px;
+    }
+
+    img {
+        width: 500px;
+    }
+
+    #portfolio-box {
+        height: 2500px;
+    }
+
+    .image-label {
+        position: absolute;
+        background-color: #4aaaa5;
+        color: white;
+        top: 260px;
+        width: 100%;
+        font-size: 30px;
+    }
+
+    #profile-image {
+        width: 100%;
+        margin: 0px 0px 20px 0px;
+    }
+}
