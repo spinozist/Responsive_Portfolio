@@ -221,7 +221,7 @@ footer {
     }
 
     .input-box {
-        width: 98%;
+        width: 97%;
         color: darkgrey;
     }
 
@@ -232,6 +232,10 @@ footer {
 }
 
 @media screen and (max-width: 640px) {
+
+    .box {
+        width: 540px;
+    }
 
     .namebanner {
         width: 100%;
@@ -255,8 +259,8 @@ footer {
     }
 
     .header-box {
+        float: center;
         height: 180px; 
-        margin: -15px;
         width: 100%;
     }
 
@@ -265,7 +269,7 @@ footer {
     }
 
     .column-wrap {
-        width: 100%;
+        width: 90%;
     }
 
     .image-wrap {
@@ -280,14 +284,14 @@ footer {
     }
 
     #portfolio-box {
-        height: 2500px;
+        height: 2200px;
     }
 
     .image-label {
         position: absolute;
         background-color: #4aaaa5;
         color: white;
-        top: 260px;
+        top: 230px;
         width: 100%;
         font-size: 30px;
     }
